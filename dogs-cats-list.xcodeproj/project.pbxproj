@@ -49,6 +49,7 @@
 		580044782688455100A69668 /* dogs-cats-listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dogs-cats-listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800447C2688455100A69668 /* dogs_cats_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogs_cats_listUITests.swift; sourceTree = "<group>"; };
 		5800447E2688455100A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5800448A2688457000A69668 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		5800444E2688454B00A69668 = {
 			isa = PBXGroup;
 			children = (
+				5800448A2688457000A69668 /* .gitignore */,
 				580044592688454B00A69668 /* dogs-cats-list */,
 				580044702688455100A69668 /* dogs-cats-listTests */,
 				5800447B2688455100A69668 /* dogs-cats-listUITests */,
