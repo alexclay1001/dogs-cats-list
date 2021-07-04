@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		5800445B2688454B00A69668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800445A2688454B00A69668 /* AppDelegate.swift */; };
 		5800445D2688454B00A69668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800445C2688454B00A69668 /* SceneDelegate.swift */; };
-		5800445F2688454B00A69668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800445E2688454B00A69668 /* ViewController.swift */; };
 		580044622688454B00A69668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580044602688454B00A69668 /* Main.storyboard */; };
 		580044642688455100A69668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580044632688455100A69668 /* Assets.xcassets */; };
 		580044672688455100A69668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580044652688455100A69668 /* LaunchScreen.storyboard */; };
 		580044722688455100A69668 /* dogs_cats_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580044712688455100A69668 /* dogs_cats_listTests.swift */; };
 		5800447D2688455100A69668 /* dogs_cats_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800447C2688455100A69668 /* dogs_cats_listUITests.swift */; };
+		58BB98AE26921A0F003629AE /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB98AD26921A0F003629AE /* CatModel.swift */; };
+		58BB98B026921A69003629AE /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB98AF26921A69003629AE /* CatImage.swift */; };
+		58BB98B326921AD7003629AE /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB98B126921AD7003629AE /* TopTableViewCell.swift */; };
+		58BB98B426921AD7003629AE /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58BB98B226921AD7003629AE /* TopTableViewCell.xib */; };
+		58BB98B626921F45003629AE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB98B526921F45003629AE /* TableViewController.swift */; };
+		58BB98B926923230003629AE /* MiddleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB98B726923230003629AE /* MiddleTableViewCell.swift */; };
+		58BB98BA26923230003629AE /* MiddleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58BB98B826923230003629AE /* MiddleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		580044572688454B00A69668 /* dogs-cats-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dogs-cats-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800445A2688454B00A69668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5800445C2688454B00A69668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5800445E2688454B00A69668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		580044612688454B00A69668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		580044632688455100A69668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580044662688455100A69668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +55,13 @@
 		5800447C2688455100A69668 /* dogs_cats_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogs_cats_listUITests.swift; sourceTree = "<group>"; };
 		5800447E2688455100A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5800448A2688457000A69668 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		58BB98AD26921A0F003629AE /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		58BB98AF26921A69003629AE /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
+		58BB98B126921AD7003629AE /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		58BB98B226921AD7003629AE /* TopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
+		58BB98B526921F45003629AE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		58BB98B726923230003629AE /* MiddleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleTableViewCell.swift; sourceTree = "<group>"; };
+		58BB98B826923230003629AE /* MiddleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiddleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +115,17 @@
 			children = (
 				5800445A2688454B00A69668 /* AppDelegate.swift */,
 				5800445C2688454B00A69668 /* SceneDelegate.swift */,
-				5800445E2688454B00A69668 /* ViewController.swift */,
 				580044602688454B00A69668 /* Main.storyboard */,
 				580044632688455100A69668 /* Assets.xcassets */,
 				580044652688455100A69668 /* LaunchScreen.storyboard */,
 				580044682688455100A69668 /* Info.plist */,
+				58BB98AD26921A0F003629AE /* CatModel.swift */,
+				58BB98AF26921A69003629AE /* CatImage.swift */,
+				58BB98B126921AD7003629AE /* TopTableViewCell.swift */,
+				58BB98B226921AD7003629AE /* TopTableViewCell.xib */,
+				58BB98B526921F45003629AE /* TableViewController.swift */,
+				58BB98B726923230003629AE /* MiddleTableViewCell.swift */,
+				58BB98B826923230003629AE /* MiddleTableViewCell.xib */,
 			);
 			path = "dogs-cats-list";
 			sourceTree = "<group>";
@@ -235,7 +253,9 @@
 			files = (
 				580044672688455100A69668 /* LaunchScreen.storyboard in Resources */,
 				580044642688455100A69668 /* Assets.xcassets in Resources */,
+				58BB98BA26923230003629AE /* MiddleTableViewCell.xib in Resources */,
 				580044622688454B00A69668 /* Main.storyboard in Resources */,
+				58BB98B426921AD7003629AE /* TopTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5800445F2688454B00A69668 /* ViewController.swift in Sources */,
 				5800445B2688454B00A69668 /* AppDelegate.swift in Sources */,
+				58BB98B626921F45003629AE /* TableViewController.swift in Sources */,
+				58BB98AE26921A0F003629AE /* CatModel.swift in Sources */,
 				5800445D2688454B00A69668 /* SceneDelegate.swift in Sources */,
+				58BB98B026921A69003629AE /* CatImage.swift in Sources */,
+				58BB98B926923230003629AE /* MiddleTableViewCell.swift in Sources */,
+				58BB98B326921AD7003629AE /* TopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
